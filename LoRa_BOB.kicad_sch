@@ -873,6 +873,119 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Antenna"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "AE"
+				(at -1.905 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "Antenna"
+				(at -1.905 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Antenna"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "antenna"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Antenna_0_1"
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0 -2.54) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Antenna_1_1"
+				(pin input line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -2604,6 +2717,16 @@
 	)
 	(wire
 		(pts
+			(xy 292.1 114.3) (xy 302.26 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a2a1ead-4294-42ed-b2ef-a4026f831709")
+	)
+	(wire
+		(pts
 			(xy 261.62 116.84) (xy 266.7 116.84)
 		)
 		(stroke
@@ -3915,7 +4038,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Adafruit_Feather_M0_RFM9x_LoRa_Radio"
+		(property "Value" "Adafruit_Feather_RFM9x_LoRa_Radio"
 			(at 173.5933 157.48 0)
 			(effects
 				(font
@@ -3934,7 +4057,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-learn.adafruit.com/downloads/pdf/adafruit-feather-m0-radio-with-lora-radio-module.pdf"
+		(property "Datasheet" ""
 			(at 171.45 142.24 0)
 			(effects
 				(font
@@ -3943,7 +4066,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Microcontroller module with SAMD21 Cortex-M0 MCU and RFM9x Radio"
+		(property "Description" "Featherwing RFM9x Radio"
 			(at 171.45 121.92 0)
 			(effects
 				(font
@@ -4207,7 +4330,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RFM97W-915S2"
+		(property "Value" "1597-1488-ND"
 			(at 281.5433 109.22 0)
 			(effects
 				(font
@@ -4225,7 +4348,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.hoperf.com/data/upload/portal/20181127/5bfcbea20e9ef.pdf"
+		(property "Datasheet" "https://github.com/SeeedDocument/RFM95-98_LoRa_Module/blob/master/RFM95_96_97_98_DataSheet.pdf"
 			(at 195.58 80.01 0)
 			(effects
 				(font
@@ -4361,6 +4484,73 @@
 			(project "LoRa_BOB"
 				(path "/bd24c4db-4e36-4117-bd4f-5228ef241da9"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Antenna")
+		(at 302.26 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2176230-4235-47c8-82d3-4819d73e4a63")
+		(property "Reference" "AE1"
+			(at 304.8 108.5849 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Antenna"
+			(at 304.8 111.1249 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RF_Antenna:Texas_SWRA416_868MHz_915MHz"
+			(at 302.26 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 302.26 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Antenna"
+			(at 302.26 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d7014d4-8b04-47f4-be33-a7855ddf54df")
+		)
+		(instances
+			(project ""
+				(path "/bd24c4db-4e36-4117-bd4f-5228ef241da9"
+					(reference "AE1")
 					(unit 1)
 				)
 			)
