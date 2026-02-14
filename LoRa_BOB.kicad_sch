@@ -2636,16 +2636,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 105.41) (xy 176.53 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0dc9ee1d-5f29-43c3-ab1a-7c09950d26f6")
-	)
-	(wire
-		(pts
 			(xy 181.61 162.56) (xy 287.02 162.56)
 		)
 		(stroke
@@ -2773,16 +2763,6 @@
 			(type default)
 		)
 		(uuid "57366523-d459-45e3-a8a6-c0e400c7f5c4")
-	)
-	(wire
-		(pts
-			(xy 220.98 130.81) (xy 220.98 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f7e4a20-0450-4e01-a85b-dc2575c205c6")
 	)
 	(wire
 		(pts
@@ -2916,16 +2896,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 105.41) (xy 176.53 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab1f0aad-285a-4a73-ada0-713286e959ad")
-	)
-	(wire
-		(pts
 			(xy 264.16 92.71) (xy 264.16 125.73)
 		)
 		(stroke
@@ -2933,16 +2903,6 @@
 			(type default)
 		)
 		(uuid "aceb9423-cb7b-43cb-85bc-8867d65969cf")
-	)
-	(wire
-		(pts
-			(xy 176.53 133.35) (xy 195.58 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0c7bf6d-0489-4721-89b9-d1a839e3c7e8")
 	)
 	(wire
 		(pts
@@ -3083,16 +3043,6 @@
 			(type default)
 		)
 		(uuid "dceae2b8-4601-499d-86f6-56d975e1f3e7")
-	)
-	(wire
-		(pts
-			(xy 158.75 107.95) (xy 158.75 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0a87f6c-df64-4021-bd4c-a510b3fe1b19")
 	)
 	(wire
 		(pts
@@ -3852,16 +3802,15 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 220.98 130.81 0)
+		(at 195.58 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0a6a8db8-fcfb-40e5-b375-8e632b0291e2")
+		(uuid "07d5bf2e-8baa-42fc-8189-c1e40c16ebde")
 		(property "Reference" "#PWR02"
-			(at 220.98 134.62 0)
+			(at 195.58 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3870,7 +3819,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 223.52 129.5399 0)
+			(at 192.532 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3879,7 +3828,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 130.81 0)
+			(at 195.58 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3888,7 +3837,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 130.81 0)
+			(at 195.58 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3897,7 +3846,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 220.98 130.81 0)
+			(at 195.58 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3906,7 +3855,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "a22e7680-584e-43c9-a70e-f601af5771de")
+			(uuid "0d8ef8d4-bda0-4e46-90e2-4c74d22e401e")
 		)
 		(instances
 			(project "LoRa_BOB"
@@ -4278,6 +4227,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 195.58 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "433a90c3-8ef0-4242-b29e-1d687520040c")
+		(property "Reference" "#PWR07"
+			(at 195.58 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 195.58 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 195.58 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d877a99e-cd4e-4d01-a72a-430ed8bbd1cf")
+		)
+		(instances
+			(project "LoRa_BOB"
+				(path "/bd24c4db-4e36-4117-bd4f-5228ef241da9"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MCU_Module:Adafruit_Feather_M0_RFM9x_LoRa_Radio")
 		(at 156.21 138.43 0)
 		(unit 1)
@@ -4544,6 +4559,72 @@
 			(project ""
 				(path "/bd24c4db-4e36-4117-bd4f-5228ef241da9"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 203.2 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0709144-14c5-4cdd-9f80-9649ee801b78")
+		(property "Reference" "#PWR08"
+			(at 203.2 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 203.2 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 203.2 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9998df03-3843-4b89-b783-53904e10961f")
+		)
+		(instances
+			(project "LoRa_BOB"
+				(path "/bd24c4db-4e36-4117-bd4f-5228ef241da9"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
