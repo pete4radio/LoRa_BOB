@@ -2556,6 +2556,16 @@
 		)
 		(uuid "69eff8a4-3881-4f93-97c8-402453ce461c")
 	)
+	(text "High Speed Digital Trace\nDirectives set Netclass = 50 ohms\nPractice"
+		(exclude_from_sim no)
+		(at 270.256 154.432 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a30a60c4-1463-4d71-83db-0bb6d67c81bd")
+	)
 	(text "LDO Voltage regulator"
 		(exclude_from_sim no)
 		(at 215.138 71.374 0)
@@ -2609,13 +2619,13 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 129.54) (xy 158.75 129.54)
+			(xy 153.67 124.46) (xy 158.75 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "00c40126-3bc2-4f8e-96eb-970250d72be3")
+		(uuid "072d7dd1-b085-4744-bc90-c93fffde8012")
 	)
 	(wire
 		(pts
@@ -2636,6 +2646,16 @@
 			(type default)
 		)
 		(uuid "132a2f81-f0e2-4ec8-a57a-2e926718c9e0")
+	)
+	(wire
+		(pts
+			(xy 153.67 127) (xy 158.75 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13f57428-e471-4181-ab38-f4e4951c385f")
 	)
 	(wire
 		(pts
@@ -2749,16 +2769,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 127) (xy 158.75 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5bfb0d7d-dea0-4dcf-8afe-354ad3644d45")
-	)
-	(wire
-		(pts
 			(xy 232.41 88.9) (xy 232.41 90.17)
 		)
 		(stroke
@@ -2776,6 +2786,16 @@
 			(type default)
 		)
 		(uuid "6fde2376-547e-4926-991e-5f932a5ea25f")
+	)
+	(wire
+		(pts
+			(xy 265.43 167.64) (xy 274.32 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b265b7e-d5b2-4de3-8353-902865b8434d")
 	)
 	(wire
 		(pts
@@ -2806,6 +2826,16 @@
 			(type default)
 		)
 		(uuid "7f66a8f6-5330-481b-8836-67bac2f38a45")
+	)
+	(wire
+		(pts
+			(xy 265.43 172.72) (xy 274.32 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "898ca3d3-5179-4dff-9c00-c008664e65d3")
 	)
 	(wire
 		(pts
@@ -2869,6 +2899,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 162.56) (xy 274.32 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac3af90e-681c-4d6d-a5ae-793cc3c7ec91")
+	)
+	(wire
+		(pts
 			(xy 236.22 119.38) (xy 248.92 119.38)
 		)
 		(stroke
@@ -2896,6 +2936,16 @@
 			(type default)
 		)
 		(uuid "b60aa7ec-e6b6-4190-a9fc-23c7fdd2bcf3")
+	)
+	(wire
+		(pts
+			(xy 153.67 129.54) (xy 158.75 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b81adb43-1c24-45bc-b432-0c6c800b3ccc")
 	)
 	(wire
 		(pts
@@ -2936,6 +2986,16 @@
 			(type default)
 		)
 		(uuid "d484180c-67b0-4304-ab2c-5fe3413ceb36")
+	)
+	(wire
+		(pts
+			(xy 265.43 182.88) (xy 274.32 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d648d684-9d8f-4c00-a327-0cd0626708d9")
 	)
 	(wire
 		(pts
@@ -3039,13 +3099,13 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 124.46) (xy 158.75 124.46)
+			(xy 265.43 177.8) (xy 274.32 177.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fd952ba5-ff62-4be0-8d48-5edefa244ed8")
+		(uuid "fdcdec4b-51b1-4183-ae38-d787d67bc235")
 	)
 	(wire
 		(pts
@@ -3613,6 +3673,26 @@
 			"C5GAGewGgHyc1WTrwMmr/g9vwf/t9v8Ana4STNR7fosAAAAASUVORK5CYII="
 		)
 	)
+	(label "MOSI"
+		(at 274.32 172.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "060d16f8-a081-4577-ad40-53b442ccfb1a")
+	)
+	(label "SCK"
+		(at 274.32 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "09426e62-8203-4043-8b01-02eeda4ff4b6")
+	)
 	(label "~{RESET}"
 		(at 203.2 119.38 0)
 		(effects
@@ -3703,6 +3783,16 @@
 		)
 		(uuid "9e7daaf1-3a29-42b2-81a1-0eaab1439513")
 	)
+	(label "MOSI_3V"
+		(at 274.32 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a18c926e-1a51-44e3-af88-a308f85d03b4")
+	)
 	(label "CS_3V"
 		(at 240.03 121.92 0)
 		(effects
@@ -3712,6 +3802,26 @@
 			(justify left bottom)
 		)
 		(uuid "c7780a0e-18ee-4aa4-a0b5-9f88ff84d25a")
+	)
+	(label "SCK_3V"
+		(at 274.32 167.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ddc202a5-8b4a-4a7b-b984-bf5066f991b3")
+	)
+	(label "MISO"
+		(at 274.32 182.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eff8a62d-5f3c-4888-8927-1fc82d0026ee")
 	)
 	(label "SCK_3V"
 		(at 240.03 129.54 0)
@@ -3742,68 +3852,6 @@
 			(justify left bottom)
 		)
 		(uuid "fe093274-5265-4c3b-b7c9-f530ee47be05")
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 142.24 124.46 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1a2139e9-82da-488f-a0e6-40fa485c39b8")
-		(property "Netclass" "50 ohm"
-			(at 142.9385 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at -1.27 1.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 133.35 127 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "203f5a0a-00ea-4f1e-889e-5b211ebcb940")
-		(property "Netclass" "50 ohm"
-			(at 134.0485 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at -20.32 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
 	)
 	(netclass_flag ""
 		(length 2.54)
@@ -3839,7 +3887,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 254 114.3 0)
+		(at 265.43 182.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3847,9 +3895,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "2fc56755-a4c1-4178-b370-36d5014d7e84")
+		(uuid "3b3c9b86-0f29-4858-be94-5f7b2f42b50e")
 		(property "Netclass" "50 ohm"
-			(at 254.6985 111.76 0)
+			(at 266.1285 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3858,7 +3906,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 0 -10.16 0)
+			(at 120.65 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3870,7 +3918,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 125.73 129.54 0)
+		(at 265.43 172.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3878,9 +3926,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "5bc93046-8d21-4f1d-925c-90ba0b8aaedc")
+		(uuid "ab0f1412-6dfd-466d-93ab-24c63a8bca5c")
 		(property "Netclass" "50 ohm"
-			(at 126.4285 127 0)
+			(at 266.1285 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3889,7 +3937,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at -19.05 1.27 0)
+			(at 111.76 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3901,7 +3949,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 256.54 119.38 0)
+		(at 265.43 167.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3909,9 +3957,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "b37afe5b-1c43-4a2e-884d-f13758b10ea2")
+		(uuid "bc8f847a-cec5-49a6-a4b6-05a1b4b34955")
 		(property "Netclass" "50 ohm"
-			(at 257.2385 116.84 0)
+			(at 266.1285 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3920,7 +3968,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 2.54 -5.08 0)
+			(at 120.65 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3932,7 +3980,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 246.38 129.54 0)
+		(at 265.43 162.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3940,9 +3988,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "c3b1568d-27e4-4d49-8526-f3c836ab470b")
+		(uuid "d05980c9-5c8d-4b77-b0ba-5cc86f34e88b")
 		(property "Netclass" "50 ohm"
-			(at 247.0785 127 0)
+			(at 266.1285 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3951,7 +3999,38 @@
 			)
 		)
 		(property "Component Class" ""
-			(at -1.27 0 0)
+			(at 121.92 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 265.43 177.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ec1b3eac-a6b7-4e36-843b-0802b620e62c")
+		(property "Netclass" "50 ohm"
+			(at 266.1285 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 120.65 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
