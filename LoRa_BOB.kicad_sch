@@ -1129,8 +1129,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "A"
-				(at -10.16 29.21 0)
+			(property "Reference" "A1"
+				(at 2.1433 -33.02 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1138,8 +1138,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Adafruit_Feather_M0_RFM9x_LoRa_Radio"
-				(at 2.54 -31.75 0)
+			(property "Value" "Adafruit_Feather_RFM9x_LoRa_Radio"
+				(at 2.1433 -35.56 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1157,7 +1157,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://cdn-learn.adafruit.com/downloads/pdf/adafruit-feather-m0-radio-with-lora-radio-module.pdf"
+			(property "Datasheet" ""
 				(at 0 -20.32 0)
 				(effects
 					(font
@@ -1166,7 +1166,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Microcontroller module with SAMD21 Cortex-M0 MCU and RFM9x Radio"
+			(property "Description" "Featherwing RFM9x Radio"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1758,24 +1758,6 @@
 						)
 					)
 					(number "30"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -22.86 180)
-					(length 2.54)
-					(name "ANT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "29"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2657,6 +2639,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 127) (xy 266.7 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20e4420b-7303-46b8-95dc-0a6b9eba2283")
+	)
+	(wire
+		(pts
 			(xy 229.87 80.01) (xy 232.41 80.01)
 		)
 		(stroke
@@ -2717,6 +2709,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 124.46) (xy 158.75 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "467b474a-ac65-4dfb-8847-7c827b0c3754")
+	)
+	(wire
+		(pts
 			(xy 292.1 114.3) (xy 302.26 114.3)
 		)
 		(stroke
@@ -2727,7 +2729,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 116.84) (xy 266.7 116.84)
+			(xy 256.54 116.84) (xy 266.7 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2827,7 +2829,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 124.46) (xy 261.62 124.46)
+			(xy 236.22 124.46) (xy 256.54 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2867,6 +2869,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 129.54) (xy 158.75 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aeb72628-b405-4297-a4c7-13628319c7a9")
+	)
+	(wire
+		(pts
 			(xy 203.2 129.54) (xy 210.82 129.54)
 		)
 		(stroke
@@ -2884,6 +2896,16 @@
 			(type default)
 		)
 		(uuid "b60aa7ec-e6b6-4190-a9fc-23c7fdd2bcf3")
+	)
+	(wire
+		(pts
+			(xy 153.67 127) (xy 158.75 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c186f0d7-4387-4fc6-89c2-abefd188c296")
 	)
 	(wire
 		(pts
@@ -2967,7 +2989,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 124.46) (xy 261.62 116.84)
+			(xy 256.54 124.46) (xy 256.54 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3024,6 +3046,16 @@
 			(type default)
 		)
 		(uuid "fc9e8f95-9c82-46ec-b635-784bc80715f4")
+	)
+	(wire
+		(pts
+			(xy 261.62 119.38) (xy 266.7 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff3dd5ca-6c4c-4a18-bc45-39389b059c50")
 	)
 	(image
 		(at 411.4038 243.1796)
@@ -3591,6 +3623,16 @@
 		)
 		(uuid "3d75ebc4-3235-492a-9cf5-c307330b472d")
 	)
+	(label "MISO"
+		(at 261.62 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "42387e25-6db6-46be-9b84-04d1d15e2e32")
+	)
 	(label "MOSI_3V"
 		(at 240.03 124.46 0)
 		(effects
@@ -3621,6 +3663,26 @@
 		)
 		(uuid "6d120c51-0adb-4ec8-909d-001177ac2e95")
 	)
+	(label "SCK"
+		(at 153.67 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7351f8ff-cee9-486a-8ee1-d29b7a386ff4")
+	)
+	(label "MISO"
+		(at 153.67 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "94af6702-19b7-469e-8729-28374b5537ed")
+	)
 	(label "MOSI"
 		(at 203.2 124.46 0)
 		(effects
@@ -3630,6 +3692,16 @@
 			(justify left bottom)
 		)
 		(uuid "97448b98-c059-48e2-87f8-e0cadad07436")
+	)
+	(label "~{RESET_3V}"
+		(at 257.81 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9e7daaf1-3a29-42b2-81a1-0eaab1439513")
 	)
 	(label "CS_3V"
 		(at 240.03 121.92 0)
@@ -3660,6 +3732,16 @@
 			(justify left bottom)
 		)
 		(uuid "fc48a37d-22c3-4738-b9b3-62f3f442c4fd")
+	)
+	(label "MOSI"
+		(at 153.67 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fe093274-5265-4c3b-b7c9-f530ee47be05")
 	)
 	(symbol
 		(lib_id "power:+3V3")
@@ -4162,9 +4244,6 @@
 		(pin "10"
 			(uuid "b1514134-f10f-4cf5-9f60-984632e040dd")
 		)
-		(pin "29"
-			(uuid "10caab99-2621-4b48-8009-f2fdb160ee5b")
-		)
 		(pin "32"
 			(uuid "5ff77717-cc1b-461d-be10-d040d34645ec")
 		)
@@ -4240,6 +4319,72 @@
 			(project "LoRa_BOB"
 				(path "/bd24c4db-4e36-4117-bd4f-5228ef241da9"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 171.45 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d13284f-e849-4fda-afd8-acf583dd18bf")
+		(property "Reference" "#PWR06"
+			(at 171.45 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 171.45 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 171.45 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c43a63c7-50ac-41f0-81de-6d8b1e278870")
+		)
+		(instances
+			(project "LoRa_BOB"
+				(path "/bd24c4db-4e36-4117-bd4f-5228ef241da9"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
