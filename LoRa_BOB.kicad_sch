@@ -4261,17 +4261,7 @@
 		)
 		(uuid "7351f8ff-cee9-486a-8ee1-d29b7a386ff4")
 	)
-	(label "RED"
-		(at 81.28 124.46 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7a244149-0897-4e2d-8827-336ad603f1a0")
-	)
-	(label "YELLOW"
+	(label "GREEN"
 		(at 121.92 115.57 90)
 		(effects
 			(font
@@ -4281,7 +4271,7 @@
 		)
 		(uuid "85e233fb-1237-4ef2-aa32-9e6123f8e1a8")
 	)
-	(label "ORANGE"
+	(label "YELLOW"
 		(at 102.87 115.57 90)
 		(effects
 			(font
@@ -4341,7 +4331,7 @@
 		)
 		(uuid "a18c926e-1a51-44e3-af88-a308f85d03b4")
 	)
-	(label "ORANGE"
+	(label "GREEN"
 		(at 156.21 101.6 180)
 		(effects
 			(font
@@ -4381,16 +4371,6 @@
 		)
 		(uuid "ddc202a5-8b4a-4a7b-b984-bf5066f991b3")
 	)
-	(label "YELLOW"
-		(at 120.65 124.46 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e5337171-5ec7-455a-8717-c1db22a58fa4")
-	)
 	(label "MISO"
 		(at 323.85 166.37 0)
 		(effects
@@ -4410,16 +4390,6 @@
 			(justify left bottom)
 		)
 		(uuid "f129d38d-15a8-48a3-8a43-b236eda2f2f3")
-	)
-	(label "ORANGE"
-		(at 100.33 127 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f30deba7-92dd-43fb-8501-32d2624313bd")
 	)
 	(label "SCK"
 		(at 203.2 129.54 0)
@@ -4843,7 +4813,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "500"
 			(at 105.41 132.0799 0)
 			(effects
 				(font
@@ -5129,7 +5099,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5da276c1-52ae-4a44-868f-97322655b824")
 		(property "Reference" "D3"
 			(at 125.73 123.5074 90)
@@ -5140,8 +5109,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
-			(at 125.73 126.0474 90)
+		(property "Value" "LTST-C192KGKT-5A Yellow-Green"
+			(at 106.172 142.748 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5158,7 +5127,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/LTST-C193_Series.pdf"
 			(at 121.92 123.19 0)
 			(effects
 				(font
@@ -5274,7 +5243,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "84c2229c-7977-47c1-802c-c747ae209840")
 		(property "Reference" "D1"
 			(at 87.63 123.5074 90)
@@ -5285,8 +5253,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
-			(at 87.63 126.0474 90)
+		(property "Value" "LTST_C-192KRKT-5A Red"
+			(at 72.644 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5303,7 +5271,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/LTST-C193_Series.pdf"
 			(at 83.82 123.19 0)
 			(effects
 				(font
@@ -5642,7 +5610,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a5a31266-20b2-4e57-abe8-b606e2125af6")
 		(property "Reference" "D2"
 			(at 106.68 123.5074 90)
@@ -5653,8 +5620,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SML-D12D8WT86"
-			(at 106.68 126.0474 90)
+		(property "Value" "LTST-C193KFKT-5A Yellow"
+			(at 89.408 145.796 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5671,7 +5638,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.rohm.com/datasheet?p=SML-D12D8W&dist=Digi-key&media=referral&source=digi-key.com&campaign=Digi-key"
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/LTST-C193_Series.pdf"
 			(at 102.87 123.19 0)
 			(effects
 				(font
@@ -6548,7 +6515,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "500"
 			(at 86.36 132.0799 0)
 			(effects
 				(font
@@ -6618,7 +6585,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "500"
 			(at 124.46 132.0799 0)
 			(effects
 				(font
