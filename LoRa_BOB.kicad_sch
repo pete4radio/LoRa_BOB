@@ -1125,6 +1125,168 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:L"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at -1.27 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L"
+				(at 1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Inductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L_0_1"
+				(arc
+					(start 0 2.54)
+					(mid 0.6323 1.905)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.6323 0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 -0.635)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -1.905)
+					(end 0 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -3043,6 +3205,16 @@
 		)
 		(uuid "a30a60c4-1463-4d71-83db-0bb6d67c81bd")
 	)
+	(text "Impedance Matching per\nhttps://www.ti.com/lit/an/swra416/swra416.pdf"
+		(exclude_from_sim no)
+		(at 304.292 101.854 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b6768bfd-891a-445e-a42d-e394b4ef6f6f")
+	)
 	(text "RF Trace\nDirective sets Netclass = 50 ohms"
 		(exclude_from_sim no)
 		(at 231.648 155.448 0)
@@ -3085,6 +3257,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3c5ac5d5-c350-4460-8128-0ac51093fcca")
+	)
+	(junction
+		(at 306.07 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4739915d-a2ba-4c70-9cae-19407e3a7f6e")
 	)
 	(junction
 		(at 232.41 80.01)
@@ -3388,7 +3566,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 114.3) (xy 302.26 114.3)
+			(xy 292.1 114.3) (xy 298.45 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3515,6 +3693,16 @@
 			(type default)
 		)
 		(uuid "9df05131-efa3-43df-9e63-c21ac2d5f007")
+	)
+	(wire
+		(pts
+			(xy 306.07 114.3) (xy 311.15 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2d0ec01-225a-4cdb-af37-e329a66c63e6")
 	)
 	(wire
 		(pts
@@ -3735,6 +3923,16 @@
 			(type default)
 		)
 		(uuid "f311080a-8311-4b5f-90f4-ef17805f8d66")
+	)
+	(wire
+		(pts
+			(xy 306.07 114.3) (xy 306.07 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb850e57-8ff5-455d-a859-add6c4bd921b")
 	)
 	(wire
 		(pts
@@ -5387,6 +5585,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 306.07 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "77063338-4897-4b1f-959b-64424bf97044")
+		(property "Reference" "#PWR013"
+			(at 306.07 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 309.88 126.238 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 306.07 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 306.07 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 306.07 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c93da18-84a7-41c1-b4c6-11ac8b02b56b")
+		)
+		(instances
+			(project "LoRa_BOB"
+				(path "/bd24c4db-4e36-4117-bd4f-5228ef241da9"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 83.82 110.49 0)
 		(unit 1)
@@ -5964,6 +6227,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:L")
+		(at 306.07 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a661c726-dd76-4bf7-882a-81e3adda1db8")
+		(property "Reference" "L1"
+			(at 307.34 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "12n"
+			(at 307.34 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 306.07 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://productfinder.pulseelectronics.com/api/open/part-attachments/datasheet/PE-0603CD120GTT"
+			(at 306.07 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "553-PE-0603CD120GTTCT-ND"
+			(at 306.07 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d06b0c8-15c6-498f-8610-a4e9862cc63e")
+		)
+		(pin "2"
+			(uuid "c1c0a1d1-fa27-4759-8435-86b06ba804ab")
+		)
+		(instances
+			(project ""
+				(path "/bd24c4db-4e36-4117-bd4f-5228ef241da9"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "RF_Module:RFM97W-915S2")
 		(at 279.4 121.92 0)
 		(unit 1)
@@ -6209,7 +6542,7 @@
 	)
 	(symbol
 		(lib_id "Device:Antenna")
-		(at 302.26 109.22 0)
+		(at 311.15 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6218,7 +6551,7 @@
 		(fields_autoplaced yes)
 		(uuid "c2176230-4235-47c8-82d3-4819d73e4a63")
 		(property "Reference" "AE1"
-			(at 304.8 108.5849 0)
+			(at 313.69 108.5849 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6227,7 +6560,7 @@
 			)
 		)
 		(property "Value" "Antenna"
-			(at 304.8 111.1249 0)
+			(at 313.69 111.1249 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6236,7 +6569,7 @@
 			)
 		)
 		(property "Footprint" "RF_Antenna:Texas_SWRA416_868MHz_915MHz"
-			(at 302.26 109.22 0)
+			(at 311.15 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6245,7 +6578,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 302.26 109.22 0)
+			(at 311.15 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6254,7 +6587,7 @@
 			)
 		)
 		(property "Description" "Antenna"
-			(at 302.26 109.22 0)
+			(at 311.15 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6774,6 +7107,74 @@
 			(project "LoRa_BOB"
 				(path "/bd24c4db-4e36-4117-bd4f-5228ef241da9"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 302.26 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed53c886-1d57-4f3f-84bf-8d3fc99efc80")
+		(property "Reference" "C4"
+			(at 302.26 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1p"
+			(at 302.26 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 306.07 113.3348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1003_C0G_SMD"
+			(at 302.26 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "399-C0603C109C5GACTUCT-ND"
+			(at 302.26 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f89dc8c9-ad88-4255-b99a-190f087a4721")
+		)
+		(pin "1"
+			(uuid "bdbcf701-2d75-457e-9fa2-ed94ecacdf24")
+		)
+		(instances
+			(project ""
+				(path "/bd24c4db-4e36-4117-bd4f-5228ef241da9"
+					(reference "C4")
 					(unit 1)
 				)
 			)
